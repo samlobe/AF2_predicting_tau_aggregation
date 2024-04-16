@@ -1,11 +1,67 @@
-#100	1
+#95	1
 >101
-ENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXX
->UniRef100_UPI0020150758	38	0.221	7.131E+00	0	94	100	763	857	936
-DNMKHQPGGGRVQIVSKKVDYSHVTSRLGSKDNIKHVPGGGNVQILSKKMDVSKVTSKCGSKDNIKHKPGGGEVKIESHKVAVKGQPKVGSMENV-----
->UniRef100_UPI00201542C4	38	0.221	7.131E+00	0	94	100	944	1038	1116
-DNMKHQPGGGRVQIVSKKVDYSHVTSRLGSKDNIKHVPGGGNVQILSKKMDVSKVTSKCGSKDNIKHKPGGGEVKIESHKVAVKGQPKVGSMENV-----
->UniRef100_A0A9D3PKU6	37	0.221	9.766E+00	0	94	100	683	777	910
-DNIKHQPGGGKVQILDKKVDFSSIQSKCGSKANIKHTPGGGNVQIVHKKIDLSNVQSKCGSKDNIRHKPGGGNVEIKNEKLDFKVQSKIGSFDNI-----
+ENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQII
+>UniRef100_UPI0020150758	38	0.221	6.029E+00	0	94	95	763	857	936
+DNMKHQPGGGRVQIVSKKVDYSHVTSRLGSKDNIKHVPGGGNVQILSKKMDVSKVTSKCGSKDNIKHKPGGGEVKIESHKVAVKGQPKVGSMENV
+>UniRef100_UPI00201542C4	38	0.221	6.029E+00	0	94	95	944	1038	1116
+DNMKHQPGGGRVQIVSKKVDYSHVTSRLGSKDNIKHVPGGGNVQILSKKMDVSKVTSKCGSKDNIKHKPGGGEVKIESHKVAVKGQPKVGSMENV
+>UniRef100_UPI000528CC66	37	0.800	8.264E+00	0	14	95	62	76	131
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8C4J5E5	37	0.800	8.264E+00	0	14	95	17	31	165
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A3B5L2K1	37	0.800	8.264E+00	0	14	95	16	30	215
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A4W4HKB6	37	0.800	8.264E+00	0	14	95	28	42	216
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_UPI0005238E2C	37	0.800	8.264E+00	0	14	95	176	190	218
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A835NR89	37	0.800	8.264E+00	0	14	95	96	110	261
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8V5G906	37	0.800	8.264E+00	0	14	95	115	129	291
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8D2JCB8	37	0.800	8.264E+00	0	14	95	144	158	453
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A553R1R1	37	0.800	8.264E+00	0	14	95	207	221	477
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_UPI001CF70F04	37	0.800	8.264E+00	0	14	95	337	351	600
+DNIKHQPGGGKVQIF--------------------------------------------------------------------------------
+>UniRef100_A0A8C7A5T8	37	0.800	8.264E+00	0	14	95	478	492	610
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A673ALU5	37	0.800	8.264E+00	0	14	95	502	516	637
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_UPI001CF67F54	37	0.800	8.264E+00	0	14	95	450	464	651
+DNIKHQPGGGKVQIF--------------------------------------------------------------------------------
+>UniRef100_A0A8C3XZP4	37	0.800	8.264E+00	0	14	95	573	587	692
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A6P8PFE1	37	0.800	8.264E+00	0	14	95	572	586	719
+DNIKHQPGGGKVQIF--------------------------------------------------------------------------------
+>UniRef100_UPI001C4C94BB	37	0.800	8.264E+00	0	14	95	518	532	742
+DNIKHQPGGGKVQIF--------------------------------------------------------------------------------
+>UniRef100_A0A8C9FF41	37	0.800	8.264E+00	0	14	95	618	632	787
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8D2JA45	37	0.800	8.264E+00	0	14	95	684	698	835
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8C3J0V7	37	0.800	8.264E+00	0	14	95	704	718	844
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A7K5NIR1	37	0.800	8.264E+00	0	14	95	670	684	846
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8C5U657	37	0.800	8.264E+00	0	14	95	683	697	856
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8C8E9K0	37	0.800	8.264E+00	0	14	95	688	702	864
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A8C3DI69	37	0.800	8.264E+00	0	14	95	695	709	869
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_UPI00145BCD85	37	0.800	8.264E+00	0	14	95	727	741	872
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A9D3PKU6	37	0.221	8.264E+00	0	94	95	683	777	910
+DNIKHQPGGGKVQILDKKVDFSSIQSKCGSKANIKHTPGGGNVQIVHKKIDLSNVQSKCGSKDNIRHKPGGGNVEIKNEKLDFKVQSKIGSFDNI
+>UniRef100_A0A8C4UVM3	37	0.800	8.264E+00	0	14	95	822	836	989
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_A0A3M0IYE0	37	0.800	8.264E+00	0	14	95	858	872	1039
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_UPI0004F4E34B	37	0.800	8.264E+00	0	14	95	1059	1073	1226
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
+>UniRef100_UPI001CDD87E3	37	0.800	8.264E+00	0	14	95	1258	1272	1429
+DNIKHQPGGGKVQIV--------------------------------------------------------------------------------
 >101
-ENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXX
+ENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQIIXXXXXENLKHQPGGGKVQII
