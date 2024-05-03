@@ -41,16 +41,14 @@ for peptide in tqdm(peptides):
 
 #%%
 # create dictionary where each metric lives (e.g. 'pLDDT_best', 'LIS_best')
-my_metrics = ['plddt','LIS','LIA','pae_contacts','intercontacts','pTM','ipTM']
+my_metrics = ['plddt','LIS','LIA','pae_contacts','intercontacts','pTM','ipTM','interhbonds']
 models_and_avg = ['best','model_1','model_2','model_3','model_4','model_5','avg']
 metrics = {f'{metric}_{model}':{} for metric in my_metrics for model in models_and_avg}
+interhbonds_df = pd.read_csv('hbonds/interchain_hbonds_summary.csv',index_col=0)
 
 # populate each metric with subdictionaries for type and peptide
 for metric in metrics:
     metrics[metric] = {type: {peptide: None for peptide in peptides} for type in types}
-
-# delete iptm for non-multimer models (ipTM is not defined for regular AF2)
-
 
 # funtion to delete U's in the pLDDT or pAE scores
 # scores can be either plddt (list) or pae (list of lists)
@@ -150,6 +148,10 @@ for peptide in tqdm(peptides):
             num_intercontacts, pae_contacts = get_pae_intercontacts(pae,distance_path)
             metrics[f'intercontacts_{model}'][type][peptide] = num_intercontacts
             metrics[f'pae_contacts_{model}'][type][peptide] = pae_contacts
+
+            # get interhbonds
+            interhbonds = interhbonds_df.query("Peptide == @peptide and Type == @type and Model == @model")['n_inter_hbonds'].values[0]
+            metrics[f'interhbonds_{model}'][type][peptide] = interhbonds
 
 #%% fill out avg metrics in the metrics dictionary
 # i.e. the average of the 5 AF2 models

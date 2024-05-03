@@ -14,7 +14,7 @@ start_resids = [int(peptide.split('-')[0]) for peptide in peptides[:-1]] # ignor
 end_resids = [int(peptide.split('-')[1]) for peptide in peptides[:-1]]
 
 # check that all the lengths are 15
-lens = [end_resids[i] - start_resids[i] + 1 for i in range(len(start_resid))]
+lens = [end_resids[i] - start_resids[i] + 1 for i in range(len(start_resids))]
 if not all([l == 15 for l in lens]):
     print('Error: not all peptides are 15 residues long')
     print(lens)
@@ -54,4 +54,11 @@ with open('10U.fasta', 'w') as f:
         f.write('>' + peptide + '\n')
         for i in range(n_peptides-1):
             f.write(seq + 'UUUUUUUUUU' + '\n')
+        f.write(seq + '\n')
+
+#%%
+# write esm fasta with each sequence (no repeats)
+with open('esm.fasta', 'w') as f:
+    for seq, peptide in zip(seqs, peptides[:-1]):
+        f.write('>' + peptide + '\n')
         f.write(seq + '\n')

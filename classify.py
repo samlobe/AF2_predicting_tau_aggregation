@@ -217,19 +217,25 @@ plt.legend(fontsize=15)
 # print("Top 5 feature combinations with their AUCs:")
 # for feature, auc in combined_auc[:30]:
 #     print(f"{base_feature_name} + {feature}: AUC = {auc:.4f}")
-# # %%
-# # plot the aggregators along intercontacts_best_10U + intercontacts_model_3_multimer_5rec
+# %%
+# plot the aggregators along intercontacts_best_10U + intercontacts_model_3_multimer_5rec
 # feature1 = 'LIS_model_5_10U'
-# feature2 = 'intercontacts_best_10U'
-# x1 = features[feature1]; x2 = features[feature2]
-# plt.scatter(x1[y],x2[y],label='aggregation',alpha=0.5)
-# plt.scatter(x1[~y],x2[~y],label='NO aggregation',alpha=0.5)
-# plt.xlabel(feature1,fontsize=15)
-# plt.ylabel(feature2,fontsize=15)
+feature1 = 'intercontacts_best_10U'
+feature2 = 'plddt_best_10U'
+x1 = features[feature1]; x2 = features[feature2]
+plt.scatter(x1[y],x2[y],label='aggregation',alpha=0.5)
+plt.scatter(x1[~y],x2[~y],label='NO aggregation',alpha=0.5)
+plt.xlabel(feature1,fontsize=15)
+plt.ylabel(feature2,fontsize=15)
 
-# # write peptide in text below each blue point
-# annotate_it = features.index[y]
-# for i, annotation in enumerate(annotate_it):
-#     plt.text(x1[y][i],x2[y][i],annotation,fontsize=10)
+# write peptide in text below each blue point
+annotate_it = features.index[y]
+for i, annotation in enumerate(annotate_it):
+    if annotation == '276-290':
+        plt.text(x1[y][i]-.03,x2[y][i],annotation,fontsize=10)
+    elif annotation == '273-287':
+        plt.text(x1[y][i]-.01,x2[y][i],annotation,fontsize=10)
+    else:
+        plt.text(x1[y][i]-.02,x2[y][i],annotation,fontsize=10)
 
-# plt.legend()
+plt.legend()
